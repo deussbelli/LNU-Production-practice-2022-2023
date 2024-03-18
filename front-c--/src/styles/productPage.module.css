@@ -1,0 +1,151 @@
+.test {
+    color: white;
+}
+.productContainer {
+    min-height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.imageContainer {
+    position: relative;
+    left: 180px;
+    border-radius: 1.25rem;
+    border: 6px solid #000;
+    background: lightgray 50% / cover no-repeat;
+}
+
+.itemInfoContainer {
+    width: 40rem;
+    height: 37.5rem;
+    border-radius: 1.25rem;
+    border: 12px solid rgba(0, 0, 0, 0.69);
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.82) 0%,
+        #b5b5b5 32.78%,
+        #4d4d4d 77.6%,
+        #000 100%
+    );
+}
+
+.itemName,
+.addToBasket {
+    width: 100%;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.itemName,
+.itemDetails,
+.itemPrice,
+.itemDescription {
+    color: #fff;
+    text-shadow: 0px 5px 6px rgba(255, 255, 255, 0.74);
+    font-family: Zen Old Mincho;
+    font-size: 3.125rem;
+}
+
+.itemDetails {
+    font-size: 1.5rem;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.itemDetails > li {
+    background-color: black;
+    border-radius: 5px;
+    width: min-content;
+    text-wrap: nowrap;
+    padding: 0 10px;
+    margin: 10px 0;
+}
+.itemDetails > :nth-child(even) {
+    border-radius: 0.3125rem;
+    background: rgba(255, 255, 255, 0.04);
+    box-shadow:
+        -3px 3px 7px 0px rgba(255, 255, 255, 0.42) inset,
+        0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.itemDetails > :nth-child(even):hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.itemDescription {
+    font-size: 1.3rem;
+    margin: 15px;
+    padding: 5px;
+    height: 200px;
+    overflow: scroll;
+    border-radius: 0.3125rem;
+    background: rgba(255, 255, 255, 0.04);
+    box-shadow:
+        -3px 3px 7px 0px rgba(255, 255, 255, 0.42) inset,
+        0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.itemPrice,
+.addToBasket {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.itemPrice > span {
+    font-size: 2rem;
+    padding: 0 10px;
+    border-radius: 20px;
+    background: linear-gradient(
+        270deg,
+        rgba(0, 0, 0, 0.9) 0.11%,
+        rgba(106, 0, 0, 0.88) 44.93%,
+        rgba(0, 0, 0, 0.9) 94.67%
+    );
+}
+
+.addToBasket > span {
+    color: #fff;
+    font-size: 2.5rem;
+    border-radius: 4px;
+    padding: 0 15px;
+    background: #000;
+    box-shadow:
+        -3px 3px 7px 0px rgba(255, 255, 255, 0.42) inset,
+        0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.addToBasket:hover {
+    cursor: pointer;
+    scale: 1.1;
+}
+
+.pin {
+    position: relative;
+    border-radius: 1.25rem;
+    height: 37.5rem;
+    width: 25rem;
+}
+
+.itemNameContainer {
+    display: flex;
+    align-items: center;
+}
+
+.FaHeart {
+    margin-right: 20px;
+    color: white;
+    width: 32px;
+    height: 32px;
+    transition: 1s;
+}
+
+.FaHeart:hover {
+    cursor: pointer;
+    color: rgb(255, 100, 126);
+}

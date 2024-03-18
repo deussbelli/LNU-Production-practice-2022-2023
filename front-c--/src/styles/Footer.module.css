@@ -1,0 +1,23 @@
+.footerContainer{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    align-items: center;
+}
+
+.list{
+    margin: 0;
+    padding: 25px 0;
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+}
+
+.list > li{
+    font-size: 24px;
+    justify-self: center;
+    color: white;
+    cursor: pointer;
+}
+
+.list >li:hover{
+    color:red
+}

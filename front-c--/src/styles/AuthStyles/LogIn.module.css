@@ -1,0 +1,146 @@
+
+.formContainer {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.formContainerBackrgound{
+    border-radius: 10px;
+    border: 20px solid transparent;
+    border-image: linear-gradient(to bottom, rgb(0, 0, 0), rgba(186, 186, 186, 0)) 0.5;
+    background: linear-gradient(
+        117deg,
+        #000 0.61%,
+        rgba(0, 0, 0, 0.60) 40.95%,
+        rgba(0, 0, 0, 0.00) 63.72%), 
+        linear-gradient(256deg, #000 -51.91%,  #000 0.13%,  rgba(0, 0, 0, 0.00) 40.22%);
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    top: 250px;
+    left: 740px;
+    margin: auto;
+}
+
+
+/*.togglePasswordButton {
+    background: none; /* Убираем фон кнопки 
+    border: none;     
+    cursor: pointer;  
+    outline: none; 
+    width: 30px;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+    position: relative;  Устанавливаем позицию как "relative" 
+    top: -50px;
+}      
+  
+.togglePasswordButton img {
+    width: 100%;  
+    margin-left: 135px;
+}*/
+
+.loginForm, .loginForm > label{
+    display: flex;
+    margin-top: 8px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.linkToSignUp{
+    color: #fff;
+    width: 130px;
+    padding: .1rem;
+    transition: 1s;
+    border: 3px solid rgb(74, 0, 0);
+    background-color: #5c0000;
+    border-radius: 20px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.linkToSignUp:hover{
+    cursor: pointer;
+    background-color: red;
+    border: 2px solid red;
+}
+
+.loginForm {
+    gap: .70rem;
+}
+
+label {
+    margin-top: -10px;
+    font-size: 24px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.errorMassage{
+    color: red;
+    font-size: 20px;
+    justify-content: center;
+}
+
+.input {
+    width: 300px;
+    padding: .75rem;
+    font-family: Metal;
+    font-size: 18px;
+    border: 4px solid rgba(73, 73, 73, 0.5);
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.loginStyles.button {
+    padding: 10px;
+    width: 150px;
+    color: white;
+    font-family: Metal;
+    font-size: 24px;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid black;
+    border-radius: 15px;
+    transition: 1s;
+}
+.loginStyles.button.button:hover{
+    cursor: pointer;
+    background-color: red;
+}
+
+button {
+    background: transparent;
+    border: none; /* Убирает границу кнопки */
+    cursor: pointer; /* Добавляет указатель при наведении */
+    position: relative;
+}
+
+  
+button[type='submit'] {
+    font-family: Metal;
+    font-size: 30px;
+    background: transparent; /* Прозрачный фон */
+    border: 5px solid linear-gradient(180deg, #B80404 0%, rgba(120, 0, 0, 0.72) 99.99%, rgba(0, 0, 0, 0.00) 100%);; /* Граница вокруг кнопки */
+    color: #ffffff; /* Цвет текста */
+    padding: 3px 20px; /* Отступы вокруг текста */
+    cursor: pointer; /* Изменение курсора при наведении */
+    border-radius: 10px; /* Закругление углов */
+    transition: background 0.3s, color 0.3s; /* Плавные переходы при наведении */
+    background: linear-gradient(180deg, #B80404 0%, rgba(120, 0, 0, 0.72) 99.99%, rgba(0, 0, 0, 0.00) 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+button[type='submit']:hover {
+    background: #8a0000; /* Фон при наведении */
+    color: white; /* Цвет текста при наведении */
+}

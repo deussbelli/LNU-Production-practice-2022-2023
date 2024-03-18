@@ -1,0 +1,85 @@
+.tableContainer {
+    margin: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 50px;
+  }
+  
+  th, td {
+    border: 2px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    position: relative; 
+  }
+  
+  th {
+    font-size: 25px;
+    background-color: #666666;
+    text-align: center;
+    color: #1d1d1d;
+  }
+  
+  td {
+    font-size: 20px;
+    background-color: #909090;
+  }
+  
+  .productImage {
+    max-width: 50px;
+    max-height: 50px;
+  }
+  
+  .edit, .delete {
+    background-color: transparent; 
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 10px;
+    cursor: pointer;
+    position: absolute; 
+    top: 50%; 
+    transform: translateY(-50%);
+  }
+
+  .edit{
+    left: -7px;
+  }
+  
+  .delete{
+    left: 10px;
+    bottom: 10px;
+  }
+
+  .mainText {
+    border-radius: 10px;
+    background: linear-gradient(180deg, #FFF 13.3%, rgba(255, 255, 255, 0.00) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 70px;
+    text-shadow: 0px 5px 6px rgba(64, 64, 64, 0.44);
+    border: 12px solid rgba(0, 0, 0, 0.29);
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    width: 400px;
+  }
+  
+  .formContainerBackrgound_second {
+    position: relative;
+    top: 30px;
+    border-radius: 10px;
+    border-image: linear-gradient(to bottom, rgb(0, 0, 0), rgba(186, 186, 186, 0)) 0.5;
+    background: linear-gradient(
+        117deg,
+        #000 0.61%,
+        rgba(0, 0, 0, 0.60) 40.95%,
+        rgba(0, 0, 0, 0.00) 63.72%),
+        linear-gradient(256deg, #000 -51.91%,  #000 0.13%,  rgba(0, 0, 0, 0.00) 40.22%);
+    height: 110px;
+    width: 425px;
+    margin: auto;
+  }

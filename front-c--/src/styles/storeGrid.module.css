@@ -1,0 +1,36 @@
+.productsGrid {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(6, 1fr);
+    place-items: center;
+    margin: 40px 0px;
+}
+
+.productCard {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: auto;
+    width: 150px;
+    height: 150px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.itemName {
+    color: white;
+}
+
+.productImage {
+    min-height: 100px;
+    min-width: 100px;
+    max-height: 100px;
+    max-width: 100px;
+}
+
+.link {
+    text-decoration: none;
+}
+.link:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+}

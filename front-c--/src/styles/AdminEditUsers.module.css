@@ -1,0 +1,86 @@
+.editUsersContainer {
+    margin: 20px;
+  }
+    
+  .usersTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    color: black;
+    font-size: 20px;
+  }
+  
+  .usersTable th {
+    text-align: center;
+    vertical-align: middle; 
+    border: 2px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    background-color: #666666;
+  }  
+  
+
+  .usersTable > .deleteButton, .editButton, .blockButton, .statusButton {   
+    background-color: none;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  .editButton {
+    left: 10px;
+    min-width: 50px;
+    max-width: 150px;
+    height: auto;
+    background-color: none;
+  }
+  
+  .blockButton {
+    left: 10px;
+    background-color: none;
+  }
+  
+  .statusButton{    
+    left: 10px;
+    background-color: none;
+  }
+  .deleteButton{    
+    left: 10px;
+    background-color: none;
+  }
+
+
+  
+.mainText {
+  border-radius: 10px;
+  background: linear-gradient(180deg, #FFF 13.3%, rgba(255, 255, 255, 0.00) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 70px;
+  text-shadow: 0px 5px 6px rgba(64, 64, 64, 0.44);
+  border: 12px solid rgba(0, 0, 0, 0.29);
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  width: 400px;
+}
+
+.formContainerBackrgound_second {
+  position: relative;
+  top: 10px;
+  border-radius: 10px;
+  border-image: linear-gradient(to bottom, rgb(0, 0, 0), rgba(186, 186, 186, 0)) 0.5;
+  background: linear-gradient(
+      117deg,
+      #000 0.61%,
+      rgba(0, 0, 0, 0.60) 40.95%,
+      rgba(0, 0, 0, 0.00) 63.72%),
+      linear-gradient(256deg, #000 -51.91%,  #000 0.13%,  rgba(0, 0, 0, 0.00) 40.22%);
+  height: 110px;
+  width: 425px;
+  margin: auto;
+}

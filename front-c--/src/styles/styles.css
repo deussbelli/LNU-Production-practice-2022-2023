@@ -1,0 +1,45 @@
+@font-face {
+    font-family: Metal;
+    src: url(../font/MetalMania-Regular.ttf);
+}
+
+body {
+    height: 100%;
+    background: linear-gradient(
+            117deg,
+            #000 30.61%,
+            rgba(0, 0, 0, 0.6) 40.95%,
+            rgba(0, 0, 0, 0) 63.72%
+        ),
+        linear-gradient(
+            256deg,
+            #000 -51.91%,
+            #000 0.13%,
+            rgba(0, 0, 0, 0) 60.22%
+        );
+    margin: 0;
+    padding: 0;
+    font-family: Metal;
+    background:
+        url(../images/fon.png) 50% / cover no-repeat,
+        rgb(0, 0, 0);
+    background-attachment: fixed;
+    flex-shrink: 0;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 0px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

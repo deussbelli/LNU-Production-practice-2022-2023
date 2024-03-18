@@ -1,0 +1,70 @@
+.searchBarContainer {
+    z-index: 1;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 3rem;
+    border: 1px solid rgba(255, 255, 255, 0.276);
+    border-radius: 5px;
+    background: linear-gradient(
+            90deg,
+            rgba(161, 6, 234, 0) 33.95%,
+            rgba(0, 0, 0, 0.22) 56.69%
+        ),
+        linear-gradient(
+            106deg,
+            rgba(0, 0, 0, 0.4) 18.33%,
+            rgba(0, 0, 0, 0) 52.65%
+        );
+}
+
+.searchBar {
+    display: flex;
+}
+.searchGlass {
+    color: white;
+    width: 32px;
+    height: 32px;
+    margin: 5px 10px 0px 10px;
+}
+
+.searchField {
+    padding-left: 10px;
+    font-family: Metal;
+    background-color: transparent;
+    border: none;
+    height: 100%;
+    width: 100%;
+    font-size: 32px;
+    color: white;
+}
+
+.searchField:focus {
+    outline: none;
+}
+
+.resultList {
+    padding: 0;
+    width: 100%;
+    max-height: 100px;
+    list-style: none;
+}
+
+.resultList li {
+    background-color: #ffffff4d;
+    margin: 5px 0px;
+    height: 2rem;
+    z-index: 1;
+}
+.resultList li:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.linkText {
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+}

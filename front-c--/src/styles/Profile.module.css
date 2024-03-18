@@ -1,0 +1,716 @@
+.formContainerBackrgound_first{
+    position: relative;
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.82) 0%,
+        rgba(112, 112, 112, 0.29) 32.78%,
+        rgb(33, 33, 33) 77.6%,
+        rgb(0, 0, 0) 100%
+      );
+      border: 12px solid;
+      border-color: transparent;
+      border-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.69), rgba(0, 0, 0, 0.14) 76.56%) 1;
+      border-radius: 20px;
+      height: 570px;
+      left: 150px;
+      position: absolute;
+      top: 250px;
+      width: 419px;
+}
+
+
+
+.formContainerBackrgound_fifth {
+    position: absolute;
+    border-radius: 10px;
+    border: 20px solid transparent;
+    border-image: linear-gradient(to bottom, rgb(0, 0, 0), rgba(186, 186, 186, 0)) 0.5;
+    background: linear-gradient(
+        117deg,
+        #000 0.61%,
+        rgba(0, 0, 0, 0.60) 40.95%,
+        rgba(0, 0, 0, 0.00) 63.72%),
+        linear-gradient(256deg, #000 -51.91%, #000 0.13%, rgba(0, 0, 0, 0.00) 40.22%);
+    height: 550px;
+    width: 800px;
+    top: 250px; /* Изменено значение на 350px */
+    left: 740px; /* Изменено значение на 400px */
+}
+
+.mainText, .formContainerBackrgound_second {
+    position: absolute;
+    border-radius: 20px;
+}
+
+
+.mainText {
+    background: linear-gradient(180deg, #FFF 13.3%, rgba(255, 255, 255, 0.00) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 70px;
+    text-shadow: 0px 5px 6px rgba(64, 64, 64, 0.44);
+    border: 12px solid rgba(0, 0, 0, 0.29);
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    width: 400px;
+}
+
+.formContainerBackrgound_second {
+    top: 100px;
+    left: 39%;
+    border-image: linear-gradient(to bottom, rgb(0, 0, 0), rgba(186, 186, 186, 0)) 0.5;
+    background: linear-gradient(
+        117deg,
+        #000 0.61%,
+        rgba(0, 0, 0, 0.60) 40.95%,
+        rgba(0, 0, 0, 0.00) 63.72%),
+        linear-gradient(256deg, #000 -51.91%,  #000 0.13%,  rgba(0, 0, 0, 0.00) 40.22%);
+    height: 110px;
+    width: 425px;
+    margin: auto;
+}
+
+.formContainerBackrgound_fourth{
+    position: relative;
+    background: linear-gradient(180deg, #565656 0%, rgba(0, 0, 0, 0.00) 100%);
+    margin-bottom: 20px;
+    border-radius: 20px; 
+    top: -10px;
+    width: 160px;
+    top: 17px;
+    left: 125px;
+}
+
+
+.profilesettingStyles.additionalImage {
+    margin-bottom: 40px; /* Отступ вниз (40 пикселей) */
+}
+  
+
+.profileItemFirstname, 
+.profileItemLastname,
+.profileItemEmail,
+.profileItemnewPassword,
+.profileItemPhoneNumber,
+.profileItemAddress,
+.profileItemDateOfBirth {
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+
+.labelItemFirstname, 
+.labelItemLastname,
+.labelItemEmail,
+.labelItemNewPassword,
+.labelItemPhoneNumber,
+.labelItemAddress,
+.labelItemDateOfBirth {
+    color: rgba(255, 255, 255, 0.18);
+    font-size: 24px;
+    font-weight: normal;
+    text-shadow: 0px 5px 6px rgba(22, 22, 22, 0.74);
+}
+
+.valuefirstName, 
+.valuelastName,
+.valueemail,
+.valuephoneNumber,
+.valueaddress,
+.valuedateOfBirth {
+    position: relative;
+    color: white;
+    left: 10px;
+    font-size: 20px;
+}
+
+.valuenewPassword {
+    background: transparent; /* Устанавливаем фон прозрачным */
+    color: rgb(255, 255, 255); /* Устанавливаем цвет текста в белый */
+    border: none; /* Убираем границу, если она есть */
+    outline: none; /* Убираем обводку при фокусе (не рекомендуется для доступности) */
+    left: 10px;
+    font-size: 15px;
+    width: 50px; 
+    position: relative;
+  }
+  
+
+.editButton {
+    font-family: Metal;
+    font-size: 30px;
+    background: transparent; /* Прозрачный фон */
+    border: 5px solid linear-gradient(180deg, #B80404 0%, rgba(120, 0, 0, 0.72) 99.99%, rgba(0, 0, 0, 0.00) 100%);; /* Граница вокруг кнопки */
+    color: #ffffff; /* Цвет текста */
+    padding: 3px 20px; /* Отступы вокруг текста */
+    cursor: pointer; /* Изменение курсора при наведении */
+    border-radius: 10px; /* Закругление углов */
+    transition: background 0.3s, color 0.3s; /* Плавные переходы при наведении */
+    background: linear-gradient(180deg, #B80404 0%, rgba(120, 0, 0, 0.72) 99.99%, rgba(0, 0, 0, 0.00) 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    position: relative;
+    left: 356px;
+    top: -27px;
+}
+
+.editButton:hover {
+    background: #8a0000; /* Фон при наведении */
+    color: white; /* Цвет текста при наведении */
+}
+
+
+
+button {
+    background: transparent;
+    border: none; /* Убирает границу кнопки */
+    cursor: pointer; /* Добавляет указатель при наведении */
+    position: relative;
+}
+
+  
+button[type='save'] {
+    font-family: Metal;
+    font-size: 30px;
+    background: transparent; /* Прозрачный фон */
+    border: 5px solid linear-gradient(180deg, #B80404 0%, rgba(120, 0, 0, 0.72) 99.99%, rgba(0, 0, 0, 0.00) 100%);; /* Граница вокруг кнопки */
+    color: #ffffff; /* Цвет текста */
+    padding: 3px 20px; /* Отступы вокруг текста */
+    cursor: pointer; /* Изменение курсора при наведении */
+    border-radius: 10px; /* Закругление углов */
+    transition: background 0.3s, color 0.3s; /* Плавные переходы при наведении */
+    background: linear-gradient(180deg, #B80404 0%, rgba(120, 0, 0, 0.72) 99.99%, rgba(0, 0, 0, 0.00) 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    position: relative;
+    left: 200px;
+    top: -230px;
+
+}
+
+button[type='save']:hover {
+    background: #8a0000; /* Фон при наведении */
+    color: white; /* Цвет текста при наведении */
+}
+
+.form {
+    position: absolute; /* Добавлено свойство position: absolute; */
+    top: 20px; /* Изменено значение на 250px */
+    left: 50px; /* Изменено значение на 730px */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px; /* Ширина формы по вашему выбору */
+}
+
+.labelItemFirstname,
+.labelItemFirstname, 
+.labelItemLastname,
+.labelItemEmail,
+.labelItemNewPassword,
+.labelItemPhoneNumber,
+.labelItemAddress,
+.labelItemDateOfBirth{
+    color: white;
+    border-bottom: 1px solid white; 
+    margin-bottom: 5px; 
+    position: relative;
+}
+
+.labelItemFirstname{
+    left: 135px;
+}
+
+.valuefirstName {
+    color: rgb(0, 0, 0);
+    width: 300px;
+    padding: .75rem;
+    font-family: Metal;
+    font-size: 18px;
+    border: 4px solid rgba(73, 73, 73, 0.5);
+    border-radius: 15px;
+    margin-top: -10px;
+    font-size: 18px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    top: 16px;
+    left: 15px;
+}
+
+.labelItemLastname{
+    top: -74px;
+    left: 535px;
+}
+
+.valuelastName {
+    color: rgb(0, 0, 0);
+    width: 300px;
+    padding: .75rem;
+    font-family: Metal;
+    font-size: 18px;
+    border: 4px solid rgba(73, 73, 73, 0.5);
+    border-radius: 15px;
+    margin-top: -10px;
+    font-size: 18px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    top: -58px;
+    left: 415px;
+}
+
+.labelItemEmail{
+    top:-30px;
+    left: 150px;
+}
+
+.valueemail {
+    color: rgb(0, 0, 0);
+    width: 300px;
+    padding: .75rem;
+    font-family: Metal;
+    font-size: 18px;
+    border: 4px solid rgba(73, 73, 73, 0.5);
+    border-radius: 15px;
+    margin-top: -10px;
+    font-size: 18px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    top: -15px;
+    left: 15px;
+}
+
+.labelItemNewPassword {
+    left: 120px;
+    top: 15px;
+}
+
+.valuenewPassword {
+    color: rgb(0, 0, 0);
+    width: 300px;
+    padding: .75rem;
+    font-family: Metal;
+    font-size: 18px;
+    border: 4px solid rgba(73, 73, 73, 0.5);
+    border-radius: 15px;
+    margin-top: -10px;
+    font-size: 18px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    top: 32px;
+    left: 15px;
+}
+
+.labelItemPhoneNumber {
+    left: 120px;
+    top: 60px;
+}
+
+.valuephoneNumber {
+    color: rgb(0, 0, 0);
+    width: 300px;
+    padding: .75rem;
+    font-family: Metal;
+    font-size: 18px;
+    border: 4px solid rgba(73, 73, 73, 0.5);
+    border-radius: 15px;
+    margin-top: -10px;
+    font-size: 18px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    top: 75px;
+    left: 15px;
+}
+
+
+.labelItemAddress {
+    left: 545px;
+    top: -250px;
+}
+
+.valueaddress {
+    color: rgb(0, 0, 0);
+    width: 300px;
+    padding: .75rem;
+    font-family: Metal;
+    font-size: 18px;
+    border: 4px solid rgba(73, 73, 73, 0.5);
+    border-radius: 15px;
+    margin-top: -10px;
+    font-size: 18px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    top: -235px;
+    left: 415px;
+}
+
+.labelItemDateOfBirth {
+    left: 520px;
+    top: -207px;
+}
+
+.valuedateOfBirth {
+    color: rgb(0, 0, 0);
+    width: 300px;
+    padding: .75rem;
+    font-family: Metal;
+    font-size: 18px;
+    border: 4px solid rgba(73, 73, 73, 0.5);
+    border-radius: 15px;
+    margin-top: -10px;
+    font-size: 18px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    top: -190px;
+    left: 415px;
+}
+
+
+
+.labelFirstname {
+    color: rgb(255, 255, 255);
+    border-bottom: 1px solid white; 
+    margin-bottom: 5px; 
+    position: relative; 
+    
+}
+  
+.inputFirstname {
+    width: 300px;
+    padding: .75rem;
+    font-family: Metal;
+    font-size: 18px;
+    border: 4px solid rgba(73, 73, 73, 0.5);
+    border-radius: 15px;
+}
+  
+.labelLastname {
+    color: rgb(255, 255, 255);
+    border-bottom: 1px solid white; 
+    margin-bottom: 5px; 
+    position: relative; 
+    top: -100px;
+    left: 400px;
+}
+  
+.inputLastname{
+    width: 300px;
+    padding: .75rem;
+    font-family: Metal;
+    font-size: 18px;
+    border: 4px solid rgba(73, 73, 73, 0.5);
+    border-radius: 15px;
+    position: relative; 
+    top: -100px;
+    left: 400px;
+}
+
+
+.labelEmail {
+    color: rgb(255, 255, 255);
+    border-bottom: 1px solid white; 
+    margin-bottom: 5px; 
+    position: relative; 
+    top: -80px;
+}
+  
+.inputEmail {
+    width: 300px;
+    padding: .75rem;
+    font-family: Metal;
+    font-size: 18px;
+    border: 4px solid rgba(73, 73, 73, 0.5);
+    border-radius: 15px;
+    position: relative; 
+    top: -80px;
+}
+  
+.labelNewPassword {
+    color: rgb(255, 255, 255);
+    border-bottom: 1px solid white; 
+    margin-bottom: 5px; 
+    position: relative; 
+    top: -60px;
+}
+  
+.inputNewPassword {
+    width: 300px;
+    padding: .75rem;
+    font-family: Metal;
+    font-size: 18px;
+    border: 4px solid rgba(73, 73, 73, 0.5);
+    border-radius: 15px;
+    position: relative; 
+    top: -60px;
+}
+  
+
+.labelPhoneNumber {
+    color: rgb(255, 255, 255);
+    border-bottom: 1px solid white; 
+    margin-bottom: 5px; 
+    position: relative; 
+    top: -40px;
+}
+  
+.inputPhoneNumber {
+    width: 300px;
+    padding: .75rem;
+    font-family: Metal;
+    font-size: 18px;
+    border: 4px solid rgba(73, 73, 73, 0.5);
+    border-radius: 15px;
+    position: relative; 
+    top: -40px;
+}
+  
+
+.labelAddress {
+    color: rgb(255, 255, 255);
+    border-bottom: 1px solid white; 
+    margin-bottom: 5px; 
+    position: relative; 
+    top: -380px;
+    left: 400px;
+}
+  
+.inputAddress  {
+    width: 300px;
+    padding: .75rem;
+    font-family: Metal;
+    font-size: 18px;
+    border: 4px solid rgba(73, 73, 73, 0.5);
+    border-radius: 15px;
+    position: relative; 
+    top: -380px;
+    left: 400px;
+}
+  
+.labelDateOfBirth {
+    color: rgb(255, 255, 255);
+    border-bottom: 1px solid white; 
+    margin-bottom: 5px; 
+    position: relative; 
+    top: -360px;
+    left: 400px;
+}
+  
+.inputDateOfBirth  {
+    width: 300px;
+    padding: .75rem;
+    font-family: Metal;
+    font-size: 18px;
+    border: 4px solid rgba(73, 73, 73, 0.5);
+    border-radius: 15px;
+    position: relative; 
+    top: -360px;
+    left: 400px;
+}
+  
+.errorMassage{
+    color: red;
+    font-size: 20px;
+}
+
+.avatar{
+    position: relative;
+    left: 10px;
+    top: 40px;
+}
+
+.avatar:hover{
+    background: #8a0000; /* Фон при наведении */
+    cursor: pointer;
+    scale:1;
+}
+
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  
+  .avatarOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .avatar:hover + .avatarOverlay {
+    opacity: 1;
+  }
+  
+  .avatarOverlay span {
+    cursor: pointer;
+  }
+
+
+.valuefirstName_first,
+.valuelastName_first {
+    position: relative;
+    font-size: 20px;
+    color: white;
+    left: 65px;
+    top: -10px;
+    margin-left: 10px;
+    text-shadow: 0px 5px 6px rgba(182, 182, 182, 0.74);
+}
+
+.valueemail_first{
+    position: relative;
+    font-size: 17px;
+    color: white;
+    left: -90px;
+    top: 20px;
+}
+
+.linkToConfirm{
+    position: relative;
+    color: white;
+    text-decoration: none; 
+    transition: background 0.3s, color 0.3s; /* Плавные переходы при наведении */
+    background: linear-gradient(180deg, #B80404 0%, rgba(120, 0, 0, 0.72) 99.99%, rgba(0, 0, 0, 0.00) 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    padding: 1px 4px; 
+    top: 20px;
+    left: -50px;
+}
+
+.additionalImage_one{
+    position: relative;
+    top: 17px;
+    left: 50px;
+}
+
+.linkToHistory, 
+.linktToComments, 
+.linkToSupport,
+.linkToWallet, 
+.linkToDiscounts, 
+.linkToBasket,
+.linkToExit{
+    position: relative;
+    color: white;
+    font-size: 20px;
+    text-decoration: none; 
+
+}
+
+
+.linkToHistory, 
+.linktToComments, 
+.linkToSupport,
+.linkToWallet, 
+.linkToDiscounts, 
+.linkToBasket,
+.linkToExit {
+    top: 10px;
+    display: flex; 
+    align-items: center; 
+    text-decoration: none; 
+    position: relative;
+    left: 10px;
+    font-size: 25px;
+    color: #ffffff; 
+}
+
+.linkToExit{
+    transition: background 0.3s, color 0.3s; 
+    background: linear-gradient(180deg, #B80404 0%, rgba(120, 0, 0, 0.72) 99.99%, rgba(0, 0, 0, 0.00) 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    padding: -10px -16px 10px 10px; 
+    width: 140px;
+}
+
+.linkToExit:hover{
+    background: #8a0000; 
+    cursor: pointer;
+    scale:1;
+}
+
+.linkToHistory:hover, 
+.linktToComments:hover, 
+.linkToSupport:hover,
+.linkToWallet:hover, 
+.linkToDiscounts:hover, 
+.linkToBasket:hover {
+cursor: pointer;
+filter: invert(31%) sepia(93%) saturate(7363%) hue-rotate(356deg) brightness(98%) contrast(125%);
+scale:1;
+}
+
+.linkToHistory img.history {
+    position: relative;
+    width: 30px; 
+    height: 40px; 
+    margin-right: 10px; 
+    left: 5px;
+}
+
+.linktToComments img.comments {
+    position: relative;
+    width: 30px; 
+    height: 40px; 
+    margin-right: 10px; 
+    left: 5px;
+}
+
+.linkToSupport img.support {
+    position: relative;
+    width: 30px; 
+    height: 40px; 
+    margin-right: 10px; 
+    left: 5px;
+}
+
+.linkToWallet img.wallet {
+    position: relative;
+    width: 30px; 
+    height: 40px; 
+    margin-right: 10px; 
+    left: 5px;
+}
+
+.linkToDiscounts img.discounts{
+    position: relative;
+    width: 30px; 
+    height: 40px; 
+    margin-right: 10px; 
+    left: 5px;
+}
+
+.linkToBasket img.basket{
+    position: relative;
+    width: 30px; 
+    height: 40px; 
+    margin-right: 10px; 
+    left: 5px;
+}
+
+.linkToExit img.exit {
+    position: relative;
+    width: 30px; 
+    height: 40px; 
+    margin-right: 10px; 
+    left: 5px;
+}
